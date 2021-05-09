@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182730422642C23900183DF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182730412642C23900183DF1 /* AppDelegate.swift */; };
+		182730462642C23900183DF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182730452642C23900183DF1 /* ViewController.swift */; };
+		182730492642C23900183DF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182730472642C23900183DF1 /* Main.storyboard */; };
+		1827304B2642C23A00183DF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1827304A2642C23A00183DF1 /* Assets.xcassets */; };
+		1827304E2642C23A00183DF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1827304C2642C23A00183DF1 /* LaunchScreen.storyboard */; };
+		182730582642C5DC00183DF1 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182730572642C5DC00183DF1 /* WebViewViewController.swift */; };
+		1827305D2642C67F00183DF1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1827305C2642C67F00183DF1 /* WebKit.framework */; };
+		1827312B2647AF9B00183DF1 /* CredentialsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1827312A2647AF9B00183DF1 /* CredentialsService.swift */; };
+		18ED9F7226B406D200AFF48B /* CameraPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED9F7126B406D200AFF48B /* CameraPermission.swift */; };
+		18ED9F7526B4088600AFF48B /* MainDispatchDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED9F7426B4088600AFF48B /* MainDispatchDecorator.swift */; };
+		18ED9F7826B40C7000AFF48B /* HomeComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED9F7726B40C7000AFF48B /* HomeComposer.swift */; };
+		18ED9F7A26B40C7C00AFF48B /* WebViewComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED9F7926B40C7C00AFF48B /* WebViewComposer.swift */; };
+		7BE385762C467699003098E8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE385752C467699003098E8 /* LoginViewController.swift */; };
+		7BE385782C467773003098E8 /* LoginComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BE385772C467773003098E8 /* LoginComposer.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1827303E2642C23900183DF1 /* ZenIDWebViewWrapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZenIDWebViewWrapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182730412642C23900183DF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		182730452642C23900183DF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		182730482642C23900183DF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1827304A2642C23A00183DF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1827304D2642C23A00183DF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1827304F2642C23A00183DF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182730572642C5DC00183DF1 /* WebViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		1827305C2642C67F00183DF1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		1827312A2647AF9B00183DF1 /* CredentialsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialsService.swift; sourceTree = "<group>"; };
+		18ED9F7126B406D200AFF48B /* CameraPermission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPermission.swift; sourceTree = "<group>"; };
+		18ED9F7426B4088600AFF48B /* MainDispatchDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainDispatchDecorator.swift; sourceTree = "<group>"; };
+		18ED9F7726B40C7000AFF48B /* HomeComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeComposer.swift; sourceTree = "<group>"; };
+		18ED9F7926B40C7C00AFF48B /* WebViewComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewComposer.swift; sourceTree = "<group>"; };
+		7BE385752C467699003098E8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7BE385772C467773003098E8 /* LoginComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginComposer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1827303B2642C23900183DF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1827305D2642C67F00183DF1 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182730352642C23900183DF1 = {
+			isa = PBXGroup;
+			children = (
+				182730402642C23900183DF1 /* ZenIDWebViewWrapper */,
+				1827303F2642C23900183DF1 /* Products */,
+				1827305B2642C67F00183DF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1827303F2642C23900183DF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1827303E2642C23900183DF1 /* ZenIDWebViewWrapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182730402642C23900183DF1 /* ZenIDWebViewWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				182731312647B2FB00183DF1 /* Sources */,
+				182731322647B32800183DF1 /* Resources */,
+			);
+			path = ZenIDWebViewWrapper;
+			sourceTree = "<group>";
+		};
+		182730562642C5CB00183DF1 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				182730572642C5DC00183DF1 /* WebViewViewController.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		1827305B2642C67F00183DF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1827305C2642C67F00183DF1 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1827312226456ABE00183DF1 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				7BE385742C46768B003098E8 /* Login */,
+				1827312326456AC600183DF1 /* Home */,
+				182730562642C5CB00183DF1 /* WebView */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		1827312326456AC600183DF1 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				182730452642C23900183DF1 /* ViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		182731292647AF7700183DF1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				1827312A2647AF9B00183DF1 /* CredentialsService.swift */,
+				18ED9F7126B406D200AFF48B /* CameraPermission.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		182731312647B2FB00183DF1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				182730412642C23900183DF1 /* AppDelegate.swift */,
+				18ED9F7626B408AE00AFF48B /* Composers */,
+				18ED9F7326B4084C00AFF48B /* Design Patterns */,
+				182731292647AF7700183DF1 /* Services */,
+				1827312226456ABE00183DF1 /* Scenes */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		182731322647B32800183DF1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				182730472642C23900183DF1 /* Main.storyboard */,
+				1827304A2642C23A00183DF1 /* Assets.xcassets */,
+				1827304C2642C23A00183DF1 /* LaunchScreen.storyboard */,
+				1827304F2642C23A00183DF1 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18ED9F7326B4084C00AFF48B /* Design Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				18ED9F7426B4088600AFF48B /* MainDispatchDecorator.swift */,
+			);
+			path = "Design Patterns";
+			sourceTree = "<group>";
+		};
+		18ED9F7626B408AE00AFF48B /* Composers */ = {
+			isa = PBXGroup;
+			children = (
+				18ED9F7726B40C7000AFF48B /* HomeComposer.swift */,
+				18ED9F7926B40C7C00AFF48B /* WebViewComposer.swift */,
+				7BE385772C467773003098E8 /* LoginComposer.swift */,
+			);
+			path = Composers;
+			sourceTree = "<group>";
+		};
+		7BE385742C46768B003098E8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7BE385752C467699003098E8 /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1827303D2642C23900183DF1 /* ZenIDWebViewWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182730522642C23A00183DF1 /* Build configuration list for PBXNativeTarget "ZenIDWebViewWrapper" */;
+			buildPhases = (
+				1827303A2642C23900183DF1 /* Sources */,
+				1827303B2642C23900183DF1 /* Frameworks */,
+				1827303C2642C23900183DF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZenIDWebViewWrapper;
+			productName = ZenIDWebViewWrapper;
+			productReference = 1827303E2642C23900183DF1 /* ZenIDWebViewWrapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182730362642C23900183DF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					1827303D2642C23900183DF1 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 182730392642C23900183DF1 /* Build configuration list for PBXProject "ZenIDWebViewWrapper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182730352642C23900183DF1;
+			productRefGroup = 1827303F2642C23900183DF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1827303D2642C23900183DF1 /* ZenIDWebViewWrapper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1827303C2642C23900183DF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1827304E2642C23A00183DF1 /* LaunchScreen.storyboard in Resources */,
+				1827304B2642C23A00183DF1 /* Assets.xcassets in Resources */,
+				182730492642C23900183DF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1827303A2642C23900183DF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE385762C467699003098E8 /* LoginViewController.swift in Sources */,
+				1827312B2647AF9B00183DF1 /* CredentialsService.swift in Sources */,
+				18ED9F7A26B40C7C00AFF48B /* WebViewComposer.swift in Sources */,
+				182730462642C23900183DF1 /* ViewController.swift in Sources */,
+				18ED9F7226B406D200AFF48B /* CameraPermission.swift in Sources */,
+				18ED9F7826B40C7000AFF48B /* HomeComposer.swift in Sources */,
+				182730422642C23900183DF1 /* AppDelegate.swift in Sources */,
+				18ED9F7526B4088600AFF48B /* MainDispatchDecorator.swift in Sources */,
+				182730582642C5DC00183DF1 /* WebViewViewController.swift in Sources */,
+				7BE385782C467773003098E8 /* LoginComposer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		182730472642C23900183DF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182730482642C23900183DF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1827304C2642C23A00183DF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1827304D2642C23A00183DF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182730502642C23A00183DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		182730512642C23A00183DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182730532642C23A00183DF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQAZ2Y87Y2;
+				INFOPLIST_FILE = ZenIDWebViewWrapper/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.trask.WebZenID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Development: ZenID Web";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		182730542642C23A00183DF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FQAZ2Y87Y2;
+				INFOPLIST_FILE = ZenIDWebViewWrapper/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cz.trask.WebZenID;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Development: ZenID Web";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182730392642C23900183DF1 /* Build configuration list for PBXProject "ZenIDWebViewWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182730502642C23A00183DF1 /* Debug */,
+				182730512642C23A00183DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182730522642C23A00183DF1 /* Build configuration list for PBXNativeTarget "ZenIDWebViewWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182730532642C23A00183DF1 /* Debug */,
+				182730542642C23A00183DF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182730362642C23900183DF1 /* Project object */;
+}
